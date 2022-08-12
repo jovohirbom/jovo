@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-image: url(1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu i{
+    margin-left: 10px;
+}
+
+.logo i{
+    font-size: 40px;
+}
+
+.menu h3{
+    text-transform: uppercase;
+}
+
+.home hr{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.home-main p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.home-main h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.home-main button{
+    padding: 8px 60px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+
+.about{
+    height: 600px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 100px 0;
+}
+.about img{
+    margin: 25px 0;
+    width: 250px;
+}
+.about hr{
+    width: 40px;
+    margin: 30px auto;
+    height: 7px;
+    background-color: green;
+}
+.about p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.wedo{
+    padding: 100px 0;
+}
+
+.wedo-text{
+    text-align: center;
+}
+
+.wedo-text hr{
+    width: 40px;
+    margin: 20px auto;
+    height: 5px;
+    background-color: green;
+}
+.wedo-text h1{
+    text-transform: uppercase;
+}
+
+.blocks{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.block{
+    width: 29%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i{
+    font-size: 30px;
+    color: white;
+}
+
+.block hr{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.block h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.right{
+    width: 50%;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    padding: 90px 50px;
+}
+
+.right h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.right hr{
+    width: 40px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.right p{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li:nth-child(1){
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 3px;
+}
+
+.team{
+    padding: 100px 0;
+}
+
+.member-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.member-text hr{
+    width: 40px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.member img{
+    width: 100%;
+}
+
+.members{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.member{
+    width: 29%;
+    text-align: center;
+}
+
+.member h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.member hr{
+    width: 50px;
+    margin: 0 auto;
+}
+
+.member p{
+    margin: 20px 0;
+}
+
+.member-icons i{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.subscribe{
+    height: 400px;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe h3{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form input:nth-child(1){
+    padding: 10px 15px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+}
+form input:nth-child(1)::placeholder{
+    color: white;
+}
+form input:nth-child(2){
+    padding: 10px 35px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.line{
+    padding: 100px 0;
+}
+.line-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.line-text hr{
+    width: 40px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contacts{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.contact{
+    text-align: center;
+    width: 30%;
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact i{
+    font-size: 30px;
+    color: blue;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.contact hr{
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons i{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 15px 7px;
+}
+
+.books{
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.book-icon{
+    color: rgb(0, 247, 255);
+}
+
+
+
+
